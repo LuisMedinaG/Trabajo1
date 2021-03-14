@@ -41,7 +41,7 @@ h1 {
     font-family: "ArgentCF-Bold";
 	margin: 0 0 .5em 0;
 	padding: 0 0 .2em 0;
-	font-size: 2.2em;    
+	font-size: 3em;    
 	font-weight: bold;
     line-height: normal;
 	border-bottom: 1px solid var(--secondary-color);
@@ -49,7 +49,7 @@ h1 {
 
 h2 {
 	font-size: 1.25em;
-	margin: 0 0 6px 0;
+	margin: 0 0 .5em 0;
 	position: relative;
 }
 
@@ -84,7 +84,7 @@ a:hover {
 }
 
 ul {
-	margin: 0 0 2em 1.1em;
+	margin: 0 0 1em 1.1em;
 }
 
 #objective {
@@ -111,7 +111,7 @@ dt {
 	font-weight: bold;
 	font-size: 18px;
 	text-align: right;
-	padding: 0 26px 0 0;
+	padding: 0 1em 0 0;
 	width: 150px;
 	float: left;
 	height: 4em;
@@ -125,8 +125,8 @@ dd {
 
 dd.clear {
 	float: none;
-	margin: 0;
-	height: 15px;
+	margin: 0 0 .5em 0;
+	height: 1em;
 }
 
 
