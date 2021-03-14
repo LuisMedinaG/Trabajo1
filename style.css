@@ -1,0 +1,137 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+:root {
+  --secondary-color: #999999;
+}
+
+* {
+    margin: 0px;
+    padding: 0;
+}
+
+body {
+	font: 1em Helvetica, Sans-Serif;
+	line-height: 24px;
+	background: url(images/noise.jpg);
+}
+
+
+#container {
+	width: 800px;
+    height: auto;
+	margin: 40px auto 60px;
+}
+
+#pic {
+    width: auto;
+	float: right;
+    padding: 10px;
+	margin: -30px 0 0 0;
+    background: #eee; 
+    transform: rotate(-2deg);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.clear {
+	clear: both;
+}
+
+h1 {
+    font-family: "ArgentCF-Bold";
+	margin: 0 0 .5em 0;
+	padding: 0 0 .2em 0;
+	font-size: 2.2em;    
+	font-weight: bold;
+    line-height: normal;
+	border-bottom: 1px solid var(--secondary-color);
+}
+
+h2 {
+	font-size: 1.25em;
+	margin: 0 0 6px 0;
+	position: relative;
+}
+
+h2 i {
+    font-style: italic;
+    font-weight: normal;
+}
+
+span {
+	float: right;
+    clear: both;
+	font-style: italic;
+    font-family: "ArgentCF-Bold";
+	font-size: 1em;
+	color: #999;
+	font-weight: normal;
+}
+
+p {
+	margin: 0 0 1em 0;
+}
+
+a {
+	color: var(--secondary-color);
+	text-decoration: none;
+	border-bottom: 1px dotted var(--secondary-color);
+}
+
+a:hover {
+	border-bottom-style: solid;
+	color: black;
+}
+
+ul {
+	margin: 0 0 2em 1.1em;
+}
+
+#objective {
+	width: 500px;
+	float: left;
+}
+
+#objective p {
+	font-family: Georgia, Serif;
+	font-style: italic;
+	color: #666;
+}
+
+.detail {
+    font-style: italic;
+}
+
+.social-icon {
+    margin: .2em 0 .2em 0;
+}
+
+dt {
+	font-style: italic;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: right;
+	padding: 0 26px 0 0;
+	width: 150px;
+	float: left;
+	height: 4em;
+	border-right: 1px solid var(--secondary-color);
+}
+
+dd {
+	width: 600px;
+	float: right;
+}
+
+dd.clear {
+	float: none;
+	margin: 0;
+	height: 15px;
+}
+
+
+footer {
+  text-align: center;
+  padding: 1em;
+  color: var(--secondary-color);
+}
